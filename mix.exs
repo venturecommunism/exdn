@@ -32,7 +32,7 @@ defmodule Exdn.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [ { :erldn,     "~> 1.0.5" },
+    [ { :erldn, github: "venturecommunism/erldn" },
       { :calendar,  "~> 0.12.3" },
       { :ex_doc,    "~> 0.11", only: :dev },
       { :earmark,   ">= 0.0.0", only: :dev },
